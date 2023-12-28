@@ -95,4 +95,4 @@ VALIDATE $? "Installing Mongodb"
 
 mongo --host $MONGDB_HOST </app/schema/user.js &>> $LOGFILE
 
-VALIDATE $? Loading user into Mongodb"
+VALIDATE $? "Loading user into Mongodb"
